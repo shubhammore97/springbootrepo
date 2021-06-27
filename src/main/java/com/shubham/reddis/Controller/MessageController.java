@@ -8,7 +8,7 @@ public class MessageController {
 	
 	@GetMapping("/show")
 	public String showMsg() {
-		System.out.println("hello");
+		System.out.println("hello shubham");
 		return "WELCOME TO APP";
 	}
 }
